@@ -13,7 +13,7 @@ The following functionality can be achieved with the latest versions of these sc
 
 **Create an application consistent storage snapshot for Scale Up systems** 
 
-A volume snapshot is only created for the SAP HANA data volume. Log backups are used to roll the database forward during the recovery process. 
+A volume snapshot is only created for the SAP HANA data volume. Log backups are used to roll the database forward during the recovery process. See [blog post](https://www.andrewsillifant.com/new-sap-hana-scripts-for-automating-storage-operations/) for more details.
 
 <u>Location</u> - Powershell/Scale Up/New-StorageSnapshot.ps1
 
@@ -29,7 +29,7 @@ A volume snapshot is created for both the data and log volumes for the SAP HANA 
 
 **Create an application consistent storage snapshot for Scale Out systems** 
 
-A volume snapshot is only created for the SAP HANA data volume on each worker host. Log backups are used to roll the database forward during the recovery process. 
+A volume snapshot is only created for the SAP HANA data volume on each worker host. Log backups are used to roll the database forward during the recovery process. See [blog post](https://www.andrewsillifant.com/new-sap-hana-scripts-for-automating-storage-operations/) for more details.
 
 <u>Location</u> - Powershell/Scale Out/New-StorageSnapshot.ps1
 
@@ -59,7 +59,7 @@ The SAP HANA Python library also needs to be installed. [This process](https://h
 
 **Create an application consistent storage snapshot for Scale Up systems** 
 
-A volume snapshot is only created for the SAP HANA data volume. Log backups are used to roll the database forward during the recovery process. 
+A volume snapshot is only created for the SAP HANA data volume. Log backups are used to roll the database forward during the recovery process. See [blog post](https://www.andrewsillifant.com/new-sap-hana-scripts-for-automating-storage-operations/) for more details.
 
 <u>Location</u> - Python/Scale Up/saphana_create_snapshot.py
 
@@ -75,7 +75,7 @@ A volume snapshot is created for both the data and log volumes for the SAP HANA 
 
 **Create an application consistent storage snapshot for Scale Out systems** 
 
-A volume snapshot is only created for the SAP HANA data volume on each worker host. Log backups are used to roll the database forward during the recovery process. 
+A volume snapshot is only created for the SAP HANA data volume on each worker host. Log backups are used to roll the database forward during the recovery process. See [blog post](https://www.andrewsillifant.com/new-sap-hana-scripts-for-automating-storage-operations/) for more details.
 
 <u>Location</u> - Python/Scale Out/saphana_create_snapshot.py
 
